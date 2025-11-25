@@ -1,0 +1,62 @@
+                                                      JOEL FORSON
+                          (413) 204-9670 | forson.j@northeastern.edu | Boston, MA | linkedin.com/in/joelforson
+EDUCATION​
+Northeastern University – D’Amore-McKim School of Business​                                                   ​        Boston, MA
+Bachelor of Science in Business Administration                                                         September 2023 – May 2027
+Concentrations: Management Information Systems, Business Analytics Minor: Economics
+Professional Organizations: Management Leadership for Tomorrow Career Prep Fellow, Colorstack, NSBE, NABA
+Relevant Coursework: Data Mining/Wrangling for Business, Data Visualization, Information Systems, Calculus I, Business Statistics
+Awards & Achievements: 2025 MLT Consulting Case Competition Finalist (2nd Place), 2025 Liberty Mutual Unite Summit Attendee
+(Analytics), 2023 Junior Achievement of Western Mass 18 under 18, LEGACY Mentor, DMSB Scholar, Summer Bridge Mentor
+
+WORK EXPERIENCE​
+MFS Investment Management | Investment Operations Business Analyst Co-Op | Boston, MA ​ ​                         July 2025 – Present
+  ●​ Conduct QA testing on Round Robin software to ensure data flows into Eagle
+  ●​ Utilize EDA techniques to perform SQL queries on security data to validate accuracy and streamline reporting
+
+MassMutual | Operations Project Management Office Intern | Springfield, MA ​​            ​        ​        ​        May 2025 – July 2025
+   ●​ Built an operational milestone tracking database using Confluence for 40+ active projects; created an interactive dashboard
+      identifying bottlenecks across the top 10 Strategic Initiatives, enabling enhanced resource reallocation and data analysis
+   ●​ Worked on the development of a Dashboard that depicted critical KPIs for the Ops Project Management Office, improving
+      operational efficiency by providing insight into developing metrics to track budget adherence, resource management, on-time
+      milestone completion rates, etc.
+
+PwC Non-Profit Consulting – EXTERN | Consulting Extern​| Remote                                             January 2025 – March 2025
+   ●​ Analyzed 10+ nonprofit competitors in the inclusion and disability advocacy sector; presented strategic growth opportunities that
+      improved market clarity and expanded outreach by identifying 3 underserved audience segments
+   ●​ Conducted in-depth financial and organizational analysis weekly, compiled findings into a final presentation to executives with
+      clear, data-driven recommendations to enhance NOD’s market positioning, boost partner engagement, and extend its outreach
+
+PROJECTS​
+Netflix Consumer Data Analysis | Python, Excel, SQL                                                             January 2025 – April 2025
+    ●​ Designed and implemented a data cleaning pipeline that standardized over 1,000 unique titles and metadata from multiple
+         web-scraped Netflix datasets, resolving inconsistencies and enabling accurate sourcing of content data
+    ●​ Leveraged data analysis techniques and libraries such as Seaborn to uncover correlations between content type, release year, and
+         audience engagement, supporting data-driven recommendations for media investment strategies
+    ●​ Developed 5 consumer clusters using K-Means to segment viewers by engagement and show/movie metadata; developed
+         recommendations on content investment strategy based on historical evidence and successful clusters
+
+Statistical Market Analysis | Excel, SQL, SPSS                                                         October 2024 – December 2024
+    ●​ Leveraged SQL to join multiple datasets on artist discographies and applied SPSS and Excel regression models to quantify the
+         impact of song attributes, such as loudness, danceability, and length, on sales performance
+    ●​ Compiled a comprehensive technical report identifying danceability and tempo as key drivers of commercial success, increasing
+         predictive model accuracy by 20%, and providing data-backed recommendations for strategic market positioning
+
+LEADERSHIP & ACTIVITIES​
+Northeastern Black Business Student Association | Lead Events Director | Boston, MA                               April 2024 – Present
+    ●​ Lead the Events team in conceptualizing, planning, and executing up to 25+ events per year, ranging from networking mixers,
+       workshops, and an annual Professional Conference
+    ●​ Cultivate partnerships with local and major businesses to secure sponsorships and support for local community events, increasing
+       engagement and visibility, and leading to an increase in member engagement and participation by 35%
+
+Microsoft Excel Student Ambassador Program | Event Director | Hybrid                                             January 2025 – May 2025
+   ●​ Developed and delivered workshops on advanced Excel functions and features (XLOOKUP, INDEX MATCH, Pivot Tables, etc.)
+       to 40+ attendees, providing personal tutoring to enhance participants’ data analysis capabilities significantly
+   ●​ Synthesized large sample datasets in Python, transforming complex analyses into visually compelling slide decks that simplified
+       key insights and guided attendees in applying advanced analytical techniques
+
+SKILLS AND INTERESTS​
+Technical Skills: Python (Pandas, Seaborn), SQL, Tableau, Alteryx, Soft Skills: Data Storytelling, Leadership, Communication
+Interests: Celtics, Ghanaian Culture, Music Production, Avatar: The Last Airbender, Simulation Games
+Extracurriculars: Ghanaian Student Organization Community Chair, Apostolic Church International Instrumentalist
+
