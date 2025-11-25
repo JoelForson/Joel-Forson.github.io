@@ -3784,6 +3784,16 @@ input, select, textarea {
 
 		}
 
+/* Hide mobile menu toggle on desktop */
+@media screen and (min-width: 981px) {
+  #navPanelToggle {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+  }
+}
+
+
 /* Main */
 
 	#main {
@@ -4821,4 +4831,8 @@ body.is-navPanel-visible #navPanel {
 @media screen and (max-width: 980px) {
 	.features-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 140px; }
 	.feature-card.span-3, .feature-card.span-4 { grid-column: span 2; grid-row: span 1; }
+}
+
+.stretch-card {
+  grid-column: span 6; /* Makes it span 2 columns */
 }
