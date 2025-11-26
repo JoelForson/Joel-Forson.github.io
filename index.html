@@ -65,7 +65,7 @@
 							<!-- Grid Container (image-based, free layout) -->
 <div class="features-grid">
 
-  <article class="feature-card fade-in-on-scroll span-3 h-3" data-link="projects.html">
+  <article class="feature-card fade-in-on-scroll span-3 h-3" data-link="projects.html#netflix">
     <div class="feature-media">
       <img src="images/netflix-thanksgiving-movies-64de900abcc74.jpg" alt="Netflix Content Analysis" />
       <div class="feature-overlay">
@@ -75,7 +75,18 @@
     </div>
   </article>
 
-  <article class="feature-card fade-in-on-scroll h-3 stretch-card" data-link="projects.html">
+ <article class="feature-card fade-in-on-scroll span-3 h-3" data-link="projects.html#velocity-bikes">
+    <div class="feature-media">
+      <img src="images/InternetSales_page-0001.jpg" alt="Velocity Bikes Internet Sales Power BI Project" />
+      <div class="feature-overlay">
+        <h4>Velocity Bikes Internet Sales Power BI Project</h4>
+        <p>Built interactive Power BI dashboards by querying and preparing sales and budget data from SQL databases. 
+			Designed visual reports to track product and customer performance, enabling dynamic filtering and comparison against budgets for portfolio analysis.</p>
+      </div>
+    </div>
+  </article>
+
+ <article class="feature-card fade-in-on-scroll span-full h-3" data-link="projects.html#credit-score">
   <div class="feature-media">
     <img src="images/AdobeStock_143606089-scaled.jpeg" alt="Credit Score Analysis Project" />
     <div class="feature-overlay">
@@ -86,9 +97,10 @@
 </article>
 
 
-  <article class="feature-card fade-in-on-scroll span-3 h-3" data-link="projects.html">
+
+  <article class="feature-card fade-in-on-scroll span-3 h-3" data-link="projects.html#british-airways">
     <div class="feature-media">
-      <img src="images/Screenshot 2025-10-30 at 3.08.17 AM.png" alt="British Airways Analysis" />
+      <img src="images/Dashboard 1.png" alt="British Airways Analysis" />
       <div class="feature-overlay">
         <h4>British Airways Customer Insight Analysis</h4>
         <p>Analyzed customer sentiment and built interactive Tableau dashboards to visualize insights for stakeholders.</p>
@@ -96,18 +108,9 @@
     </div>
   </article>
 
-  <article class="feature-card fade-in-on-scroll span-3 h-3" data-link="projects.html">
-    <div class="feature-media">
-      <img src="images/Screenshot 2025-11-23 at 8.50.52 PM.png" alt="Velocity Bikes Internet Sales Power BI Project" />
-      <div class="feature-overlay">
-        <h4>Velocity Bikes Internet Sales Power BI Project</h4>
-        <p>Built interactive Power BI dashboards by querying and preparing sales and budget data from SQL databases. 
-			Designed visual reports to track product and customer performance, enabling dynamic filtering and comparison against budgets for portfolio analysis.</p>
-      </div>
-    </div>
-  </article>
+ 
 
-  <article class="feature-card fade-in-on-scroll span-3 h-3" data-link="projects.html">
+  <article class="feature-card fade-in-on-scroll span-3 h-3" data-link="projects.html#customer-segmentation">
     <div class="feature-media">
       <img src="images/pic08.jpg" alt="Cooking" />
       <div class="feature-overlay">
@@ -120,14 +123,16 @@
 </div>
 
 <!-- About Me Directory -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="about.html">Who is Joel Forson<br />
-									</a></h2>
-									<p>Learn more about me!.</p>
-								</header>
-								<a href="about.html" class="image main"><img src="images/IMG_8024.jpg" alt="" /></a>
-							</article>
+							<article class="post featured small-card">
+  <header class="major">
+    <h2><a href="about.html">Who is Joel Forson<br /></a></h2>
+    <p>Learn more about me!.</p>
+  </header>
+  <a href="about.html" class="image main">
+    <img src="images/IMG_8024.jpg" alt="" />
+  </a>
+</article>
+
 
 				<!-- Copyright -->
 					<div id="copyright">
@@ -148,6 +153,19 @@
 
 			<!-- Chatbot Widget -->
 <script src='https://www.noupe.com/embed/019ab97dfcb471649e2d9d18c2387cdb8acb.js'></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".feature-card").forEach(card => {
+    card.addEventListener("click", () => {
+      const link = card.getAttribute("data-link");
+      if (link) {
+        window.location.href = link;
+      }
+    });
+  });
+});
+</script>
 
 </body>
 </html>
