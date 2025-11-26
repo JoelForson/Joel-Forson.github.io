@@ -45,15 +45,43 @@
                 I’ve honed my skills through leadership and mentorship roles — from Leading the Events Division at Northeastern’s Black Business Student Association to tutoring students in data analytics — which sparked my passion for guiding others while driving impact with technology.
                 When I’m not analyzing data, you can find me exploring music, getting busy in the gym, running point in the rec basketball runs, cooking, or exploring...somewhere, anywhere.
 </p>
-          </section>
-          <!-- Music Playlist Section -->
-           <p>My music taste is a reflection of my creativity, mood, and cultural roots. I gravitate toward Afrobeats, Hip-Hop, R&B, and Reggae, finding inspiration in rhythm, storytelling, and energy. Beyond listening, 
-            I actively create — playing piano, drums, and guitar, and even experimenting with production which keeps my mind sharp and my creativity flowing. <strong>Here's what I'm listening to lately:</strong></p>
-            <iframe data-testid="embed-iframe" style="border-radius:12px" 
-            src="https://open.spotify.com/embed/playlist/37i9dQZF1EpQH0cP0UvKkq?utm_source=generator&theme=0" 
-            width="70%" height="352" frameBorder="0" allowfullscreen="" 
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-             </section>
+          <div class="media-container">
+  <!-- Instagram Carousel -->
+<div class="media-card carousel-card">
+  <h4>Instagram</h4>
+  <div class="carousel-wrapper">
+    <div class="carousel">
+      <img src="images/IMG_7939.jpg" class="carousel-img" />
+      <img src="images/IMG_8174.JPG" class="carousel-img" />
+      <img src="images/IMG_9866.jpg" class="carousel-img" />
+      <img src="images/2557B1A5-8C96-4119-AE4F-A27B8547FFB3.JPG" class="carousel-img" />
+      <img src="images/IMG_0795.JPEG" class="carousel-img" />
+      <img src="images/8299.jpg" class="carousel-img" />
+      <img src="images/IMG_1017.jpg" class="carousel-img" />
+      <img src="images/IMG_1603.jpg" class="carousel-img" />
+    </div>
+
+    <!-- Arrows -->
+    <button class="carousel-arrow prev">&#10094;</button>
+    <button class="carousel-arrow next">&#10095;</button>
+
+    <!-- Dots -->
+    <div class="carousel-dots"></div>
+  </div>
+</div>
+
+
+  <!-- Spotify Embed -->
+  <div class="media-card spotify">
+    <h4>Spotify</h4>
+    <iframe data-testid="embed-iframe" style="border-radius:12px"
+      src="https://open.spotify.com/embed/playlist/37i9dQZF1EpQH0cP0UvKkq?utm_source=generator&theme=0"
+      frameborder="0" allowfullscreen="" 
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+      loading="lazy">
+    </iframe>
+  </div>
+</div>
 
              <!-- Inspirations Section -->
 <div id="main" style="padding:60px 0; background-color:#f4f5f7;">
@@ -153,7 +181,6 @@ My Ghanaian roots instilled resilience, community, and the power of storytelling
       </div>
     </footer>
 
-
   </div>
 
   <!-- Scripts -->
@@ -164,9 +191,31 @@ My Ghanaian roots instilled resilience, community, and the power of storytelling
   <script src="assets/js/breakpoints.min.js"></script>
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
+  
 
-  			<!-- Chatbot Widget -->
-<script src='https://www.noupe.com/embed/019ab97dfcb471649e2d9d18c2387cdb8acb.js'></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  let index = 0;
+  const images = document.querySelectorAll(".carousel-img");
+
+  function rotateCarousel() {
+    images.forEach((img, i) => {
+      img.style.opacity = i === index ? 1 : 0;
+    });
+
+    index = (index + 1) % images.length;
+  }
+
+  rotateCarousel();
+  setInterval(rotateCarousel, 3000);
+});
+</script>
+
+<div class="chatbot-fullscreen">
+  <script src="https://www.noupe.com/embed/019ab97dfcb471649e2d9d18c2387cdb8acb.js"></script>
+</div>
+
+
 
 </body>
 </html>
