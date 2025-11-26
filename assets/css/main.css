@@ -4833,6 +4833,161 @@ body.is-navPanel-visible #navPanel {
 	.feature-card.span-3, .feature-card.span-4 { grid-column: span 2; grid-row: span 1; }
 }
 
-.stretch-card {
-  grid-column: span 6; /* Makes it span 2 columns */
+/* Stretch card across the entire grid */
+.feature-card.span-full {
+  grid-column: 1 / -1; /* span all columns */
+}
+
+/* Media container for carousel + Spotify */
+.media-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px auto;
+  max-width: 1500px;
+  max-height: 600px;
+}
+
+/* General media card styling */
+.media-card {
+  flex: 1 1 300px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  padding: 15px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  max-height: 500px;
+}
+
+.media-card h4 {
+  margin-bottom: 15px;
+}
+
+/* Carousel styling */
+.media-card.carousel-card .carousel {
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 12px;
+  padding-top: 125%; /* 4:5 ratio */
+}
+
+/* Carousel images */
+.carousel-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: none; /* images don’t block clicks */
+}
+
+.carousel-img.active {
+  opacity: 1;
+}
+
+/* Carousel arrows */
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;       /* remove background */
+  color: #fff;            /* arrow color */
+  border: none;           /* remove border */
+  font-size: 28px;        /* size of arrow */
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  z-index: 10;            /* above images */
+  padding: 0 10px;        /* optional spacing */
+  line-height: 1;
+}
+
+.carousel-arrow.prev {
+  left: 8px;
+}
+
+.carousel-arrow.next {
+  right: 8px;
+}
+
+.carousel-arrow::after {
+  content: none;
+}
+
+.carousel-arrow:hover {
+  color: #fffc; /* optional hover color */
+  background: none; /* keep no background */
+}
+
+/* Carousel dots */
+.carousel-dots {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 20;
+}
+
+.carousel-dots span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carousel-dots span.active {
+  background-color: #fff;
+}
+
+/* Spotify card styling */
+.media-card.spotify {
+  flex: 1 1 300px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  padding: 5px 10px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  max-width: 400px;
+  height: 500px;
+}
+
+.media-card.spotify iframe {
+  width: 100%;
+  height: 435px;
+  border-radius: 12px;
+  display: block;
+}
+
+/* Shrink About Me card */
+.post.featured.small-card {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+.post.featured.small-card .image.main img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Carousel wrapper for positioning arrows/dots */
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+  margin: auto;
 }
