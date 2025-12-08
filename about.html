@@ -45,49 +45,53 @@
                 I’ve honed my skills through leadership and mentorship roles — from Leading the Events Division at Northeastern’s Black Business Student Association to tutoring students in data analytics — which sparked my passion for guiding others while driving impact with technology.
                 When I’m not analyzing data, you can find me exploring music, getting busy in the gym, running point in the rec basketball runs, cooking, or exploring...somewhere, anywhere.
 </p>
-<section class="media-section">         
-<div class="media-container">
-  <!-- Instagram Carousel -->
-<div class="media-card carousel-card">
-  <h4>Instagram</h4>
-  <div class="carousel-wrapper">
-    <div class="carousel">
-      <img src="images/IMG_7939.jpg" class="carousel-img" />
-      <img src="images/IMG_8174.JPG" class="carousel-img" />
-      <img src="images/IMG_9866.jpg" class="carousel-img" />
-      <img src="images/2557B1A5-8C96-4119-AE4F-A27B8547FFB3.JPG" class="carousel-img" />
-      <img src="images/IMG_0795.JPEG" class="carousel-img" />
-      <img src="images/8299.jpg" class="carousel-img" />
-      <img src="images/IMG_1017.jpg" class="carousel-img" />
-      <img src="images/IMG_1603.jpg" class="carousel-img" />
+
+
+<!-- Media Section (Instagram + Spotify) -->
+<section class="media-section" style="padding: 60px 0; background-color: #f9fafb;">
+  <div style="max-width: 900px; margin: auto;">
+    <div class="media-container">
+
+      <!-- Spotify FIRST in DOM -->
+      <div class="media-card spotify">
+        <h4>Spotify</h4>
+        <iframe
+          style="border-radius:12px"
+          src="https://open.spotify.com/embed/playlist/37i9dQZF1EpQH0cP0UvKkq?utm_source=generator&theme=0"
+          frameborder="0"
+          allowfullscreen="true"
+          height="420"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy">
+        </iframe>
+      </div>
+
+      <!-- Instagram Carousel -->
+      <div class="media-card carousel-card">
+        <h4>Instagram</h4>
+        <div class="carousel-wrapper">
+          <div class="carousel">
+            <img src="images/IMG_7939.jpg" class="carousel-img" />
+            <img src="images/IMG_8174.JPG" class="carousel-img" />
+            <img src="images/IMG_9866.jpg" class="carousel-img" />
+            <img src="images/2557B1A5-8C96-4119-AE4F-A27B8547FFB3.JPG" class="carousel-img" />
+            <img src="images/IMG_0795.JPEG" class="carousel-img" />
+            <img src="images/8299.jpg" class="carousel-img" />
+            <img src="images/IMG_1017.jpg" class="carousel-img" />
+            <img src="images/IMG_1603.jpg" class="carousel-img" />
+          </div>
+
+          <div class="carousel-dots"></div>
+        </div>
+      </div>
+
     </div>
-
-    <!-- Arrows -->
-    <button class="carousel-arrow prev">&#10094;</button>
-    <button class="carousel-arrow next">&#10095;</button>
-
-    <!-- Dots -->
-    <div class="carousel-dots"></div>
   </div>
-</div>
+</section>
 
-
-  <!-- Spotify Embed -->
-  <div class="media-card spotify">
-    <h4>Spotify</h4>
-    <iframe data-testid="embed-iframe" style="border-radius:12px"
-      src="https://open.spotify.com/embed/playlist/37i9dQZF1EpQH0cP0UvKkq?utm_source=generator&theme=0"
-      frameborder="0" allowfullscreen="true" height="420"
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-      loading="lazy">
-    </iframe></section> 
-  </div>
-</div>
-
-             <!-- Inspirations Section -->
-  <section class="inspirations-section">
-<div id="main" style="padding:300px 0; background-color:#f4f5f7;">
-  <div style="max-width:1000px; margin:auto; text-align:center;">
+<!-- Inspirations Section (separate, full-width background) -->
+<section class="inspirations-section" style="padding: 80px 0; background-color: #f4f5f7;">
+  <div style="max-width: 1000px; margin: auto; text-align: center;">
     <h3 style="text-align:center; margin-bottom:20px;">What Inspires Me</h3>
     <p style="text-align:center; max-width:900px; margin:auto 0 50px;">
     I draw inspiration from a mix of culture, storytelling, and creativity that shapes both how I think and how I work. Shows like Avatar: The Last Airbender taught me lessons in balance, strategy, and growth, while Marvel inspires me to explore complexity, layered narratives, and creative problem-solving.
@@ -145,37 +149,37 @@ My Ghanaian roots instilled resilience, community, and the power of storytelling
           <div class="feature-overlay"><h4>Basketball</h4><p>I have played sports since I was an idea, most come and go but basketball is timeless for me. </p></div>
         </div>
       </article>
-      </section>
     </div>
   </div>
-</div>
+</section>
 
 <!-- Contact Me Section -->
-          <div style="max-width:800px; margin:0 auto; text-align:left;">
-          <section class="alt">
-            <h3>Resume</h3>
-            <article>
-              <p><a href="resume.html" class="button">View Resume</a></p>
-            </article>
-          </section>
-          <section class="alt">
-            <h3>Location</h3>
-            <p>Boston, MA</p>
-          </section>
-          <section>
-            <h3>Email</h3>
-            <p><a href="mailto:joelforson62@gmail.com">joelforson62@gmail.com</a></p>
-          </section>
-          <section>
-            <h3>Social</h3>
-            <ul class="icons alt">
-              <li><a href="https://www.linkedin.com/in/joelforson/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
-              <li><a href="https://github.com/JoelForson" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-            </ul>
-          </section>
-          </div>
-      </div>
-    </div>
+<!-- Contact Me Section (separate, light background) -->
+<div id="contact-section" style="padding: 80px 0; background-color: #f9fafb;">
+  <div style="max-width:800px; margin:0 auto; text-align:left;">
+    <section class="alt">
+      <h3>Resume</h3>
+      <article>
+        <p><a href="resume.html" class="button">View Resume</a></p>
+      </article>
+    </section>
+    <section class="alt">
+      <h3>Location</h3>
+      <p>Boston, MA</p>
+    </section>
+    <section>
+      <h3>Email</h3>
+      <p><a href="mailto:joelforson62@gmail.com">joelforson62@gmail.com</a></p>
+    </section>
+    <section>
+      <h3>Social</h3>
+      <ul class="icons alt">
+        <li><a href="https://www.linkedin.com/in/joelforson/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+        <li><a href="https://github.com/JoelForson" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+      </ul>
+    </section>
+  </div>
+</div>
 
     <!-- Footer -->
     <footer>
