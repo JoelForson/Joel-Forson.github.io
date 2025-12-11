@@ -4837,6 +4837,30 @@ body.is-navPanel-visible #navPanel {
   grid-column: 1 / -1; /* span all columns */
 }
 
+@media screen and (max-width: 600px) {
+  .features-grid {
+    grid-template-columns: 1fr !important;
+    grid-auto-rows: auto !important;
+  }
+
+  /* Make every card full width and auto height */
+  .feature-card,
+  .feature-card.span-1,
+  .feature-card.span-2,
+  .feature-card.span-3,
+  .feature-card.span-4 {
+    grid-column: span 1 !important;
+    grid-row: auto !important;
+    height: auto !important;
+  }
+
+  /* Ensure images scale without distortion */
+  .feature-card .feature-media img {
+    height: auto !important;
+  }
+}
+
+
 /* Media container for carousel + Spotify */
 .media-container {
   display: flex;
